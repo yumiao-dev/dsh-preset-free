@@ -1,0 +1,29 @@
+{
+  "name": "dsh-preset-free",
+  "version": "1.0.0",
+  "description": "DSH (DeepSeek Harness) agent preset for 0.2.1-rc.2+: 自由模式 — an unconditional-compliance persona bundled with a full tool set, installed as a bundle patch.",
+  "type": "module",
+  "license": "MIT",
+  "keywords": [
+    "dsh",
+    "dsh-plugin",
+    "deepseek-harness",
+    "agent-preset",
+    "persona",
+    "jailbreak"
+  ],
+  "dsh": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yumiao-dev/dsh-preset-free.git"
+  },
+  "homepage": "https://github.com/yumiao-dev/dsh-preset-free#readme",
+  "bugs": {
+    "url": "https://github.com/yumiao-dev/dsh-preset-free/issues"
+  },
+  "main": "cordis.patch.yml"
+}
